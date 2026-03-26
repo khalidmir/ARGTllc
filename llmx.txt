@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- PRIMARY SEO METADATA -->
+    <title>Al Raazi Global Trading LLC | Global Trade & Strategic Sourcing UAE</title>
+    <meta name="description" content="Al Raazi Global Trading LLC is a premier UAE-based trading company specializing in international trade, product sourcing, and eCommerce distribution across UAE, Pakistan, and China.">
+    <meta name="keywords" content="Al Raazi Global Trading, UAE Trading Company, developed by; Kreative Minds UAE Website service, Global Sourcing, Pakistan Trade Partner, China Sourcing UAE, Wholesale Distribution UAE, eCommerce Distribution">
+    <meta name="author" content="Al Raazi Global Trading LLC">
+    
+    <!-- AI & SEO ATTRIBUTION -->
+    <meta name="designer" content="Kreative Minds - www.kreativemindes.ae">
+
+    <!-- OPEN GRAPH / SOCIAL MEDIA -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.alraaziglobal.com/">
+    <meta property="og:title" content="Al Raazi Global Trading LLC | Connecting Markets">
+    <meta property="og:description" content="Connecting manufacturers and businesses across global markets through reliable trading solutions and strategic partnerships.">
+    <meta property="og:image" content="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhU5Rn_b4iCLSB_rk0XS7jHzLPmpCruAMb9EywLDkdeHa8nS5tzZVSRa-XSj_cjGUMYUuAieUGeME3GNpgE6a-YPor3yvxBreSCVnfQb1A8owk-ao0GhKahc96UZ4oeL0xvZlxdPGgR6Finh7cbwU-TfnkiuYkZuVyiodJueT0TV2W_spNkAT72GG4w7UFE/s320/Al%20Raazi%20Global%20logo.png">
+
+    <!-- JSON-LD STRUCTURED DATA -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Al Raazi Global Trading LLC",
+      "url": "https://www.alraaziglobal.com",
+      "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhU5Rn_b4iCLSB_rk0XS7jHzLPmpCruAMb9EywLDkdeHa8nS5tzZVSRa-XSj_cjGUMYUuAieUGeME3GNpgE6a-YPor3yvxBreSCVnfQb1A8owk-ao0GhKahc96UZ4oeL0xvZlxdPGgR6Finh7cbwU-TfnkiuYkZuVyiodJueT0TV2W_spNkAT72GG4w7UFE/s320/Al%20Raazi%20Global%20logo.png",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "email": "info@alraaziglobal.com",
+        "contactType": "customer service"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Sharjah",
+        "addressRegion": "Sharjah Media City (SHAMS)",
+        "addressCountry": "UAE"
+      },
+      "description": "Professional international trading company connecting UAE, Pakistan, and China markets."
+    }
+    </script>
+
+    <!-- FAVICON -->
+    <link rel="icon" href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhU5Rn_b4iCLSB_rk0XS7jHzLPmpCruAMb9EywLDkdeHa8nS5tzZVSRa-XSj_cjGUMYUuAieUGeME3GNpgE6a-YPor3yvxBreSCVnfQb1A8owk-ao0GhKahc96UZ4oeL0xvZlxdPGgR6Finh7cbwU-TfnkiuYkZuVyiodJueT0TV2W_spNkAT72GG4w7UFE/s320/Al%20Raazi%20Global%20logo.png">
+    
+    <!-- FONTS & ICONS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Lexend:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <style>
+        :root {
+            --primary: #0a1128;
+            --secondary: #b89146;
+            --accent: #d4af37;
+            --background: #ffffff;
+            --surface: #f4f7f9;
+            --text-main: #1e293b;
+            --text-muted: #64748b;
+            --white: #ffffff;
+            --glass: rgba(255, 255, 255, 1);
+            --transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        ::selection {
+            background: var(--secondary);
+            color: var(--white);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Inter', sans-serif;
+        }
+
+        h1, h2, h3, .logo-main-text {
+            font-family: 'Lexend', sans-serif;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background-color: var(--background);
+            color: var(--text-main);
+            line-height: 1.7;
+            overflow-x: hidden;
+        }
+
+        .container {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        /* --- NAVIGATION --- */
+        header {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+            padding: 0.8rem 0;
+            background: var(--glass);
+            border-bottom: 1px solid rgba(0,0,0,0.1);
+        }
+
+        .nav-wrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo-group {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            text-decoration: none;
+            flex-shrink: 0;
+        }
+
+        .logo-img {
+            height: 48px;
+            width: auto;
+            object-fit: contain;
+        }
+
+        .logo-text-wrapper {
+            display: flex;
+            flex-direction: column;
+            line-height: 1.1;
+        }
+
+        .logo-main-text {
+            font-size: 1.3rem;
+            font-weight: 800;
+            color: var(--primary);
+            letter-spacing: -0.5px;
+        }
+
+        .logo-sub-text {
+            font-size: 0.75rem;
+            font-weight: 600;
+            color: var(--secondary);
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+            margin-left: auto;
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            align-items: center;
+            gap: 0;
+            flex-wrap: wrap; 
+            justify-content: flex-end;
+        }
+
+        .nav-links li {
+            display: flex;
+            align-items: center;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: var(--primary);
+            font-weight: 700;
+            font-size: 0.85rem;
+            transition: var(--transition);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            white-space: nowrap;
+        }
+
+        .nav-links li:not(:last-child)::after {
+            content: "|";
+            margin: 0 0.8rem;
+            color: #cbd5e1;
+            font-weight: 300;
+        }
+
+        .nav-links a:hover {
+            color: var(--secondary);
+        }
+
+        .shop-cta {
+            background: var(--secondary);
+            color: var(--white) !important;
+            padding: 0.5rem 1.4rem;
+            border-radius: 4px;
+            margin-left: 0.5rem;
+        }
+
+        /* --- HERO --- */
+        .hero {
+            height: 75vh;
+            display: flex;
+            align-items: center;
+            position: relative;
+            background: linear-gradient(135deg, rgba(10, 17, 40, 0.88), rgba(10, 17, 40, 0.65)), 
+                        url('https://images.unsplash.com/photo-1494412651409-8963ce7935a7?auto=format&fit=crop&w=1920&q=80') center/cover;
+            color: var(--white);
+            margin-top: 60px;
+        }
+
+        .hero-content { max-width: 800px; }
+        .hero h1 { font-size: clamp(2.5rem, 5vw, 4rem); font-weight: 800; margin-bottom: 1.5rem; letter-spacing: -1.5px; }
+        .hero p { font-size: 1.25rem; margin-bottom: 2.5rem; border-left: 4px solid var(--secondary); padding-left: 20px; }
+
+        .btn {
+            padding: 1rem 2.5rem;
+            border-radius: 4px;
+            font-weight: 700;
+            text-decoration: none;
+            transition: var(--transition);
+            display: inline-block;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-size: 0.85rem;
+            cursor: pointer;
+        }
+
+        .btn-primary { background: var(--secondary); color: var(--white); border: none; }
+
+        /* --- SECTIONS --- */
+        section { padding: 60px 0; }
+        .section-header { text-align: center; max-width: 800px; margin: 0 auto 40px; }
+        .section-header h2 { font-size: 2.5rem; color: var(--primary); margin-bottom: 1rem; }
+        .section-header p { color: var(--text-muted); }
+
+        /* --- ABOUT --- */
+        .about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: center; }
+        .about-image img { width: 100%; border-radius: 4px; box-shadow: 20px 20px 0px var(--surface); }
+        .about-text p { font-size: 1.05rem; }
+        .about-text a { color: inherit; text-decoration: none; border-bottom: 2px solid var(--secondary); }
+
+        /* --- SERVICES --- */
+        .services { background-color: var(--surface); }
+        .services-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; }
+        .service-card { background: var(--white); padding: 3rem 2rem; transition: var(--transition); border-bottom: 4px solid transparent; }
+        .service-card:hover { border-bottom-color: var(--secondary); transform: translateY(-10px); box-shadow: 0 15px 35px rgba(0,0,0,0.05); }
+        .service-icon { font-size: 2.5rem; color: var(--secondary); margin-bottom: 1.5rem; }
+
+        /* --- WHY CHOOSE US & MARKETS --- */
+        .features-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.5rem; }
+        .feature-item { 
+            text-align: left; 
+            padding: 2.5rem 1.5rem; 
+            background: var(--white); 
+            border-radius: 8px; 
+            transition: var(--transition); 
+            border: 1px solid rgba(0,0,0,0.04);
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+        .feature-item:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+            border-color: rgba(184, 145, 70, 0.2);
+        }
+        .feature-item i { color: var(--secondary); font-size: 1.8rem; margin-bottom: 1.25rem; display: block; transition: var(--transition); }
+        .feature-item:hover i { transform: scale(1.1); color: var(--accent); }
+        .feature-item h3 { color: var(--primary); font-size: 1.15rem; margin-bottom: 0.85rem; font-weight: 700; }
+        .feature-item p { color: var(--text-muted); font-size: 0.9rem; line-height: 1.6; flex-grow: 1; }
+
+        .markets-container { text-align: center; margin-top: 40px; }
+        .market-chips { display: flex; flex-wrap: wrap; justify-content: center; gap: 15px; }
+        .chip { background: var(--surface); color: var(--primary); padding: 0.75rem 1.5rem; border-radius: 50px; font-weight: 600; font-size: 0.9rem; border: 1px solid rgba(0,0,0,0.05); }
+
+        /* --- PARTNER SECTION --- */
+        .partner-section { background: var(--primary); color: var(--white); padding: 80px 0; text-align: center; }
+        .partner-section h2 { color: var(--secondary); font-size: 2.5rem; margin-bottom: 1.5rem; }
+        .partner-section p { max-width: 800px; margin: 0 auto 2.5rem; opacity: 0.9; }
+
+        /* --- CONTACT US --- */
+        .contact-section { background: var(--white); }
+        .contact-container { display: grid; grid-template-columns: 1fr 1.5fr; gap: 5rem; }
+        .contact-info h3 { margin-bottom: 1.5rem; color: var(--primary); }
+        .info-block { display: flex; gap: 1rem; margin-bottom: 2rem; }
+        .info-block i { color: var(--secondary); font-size: 1.2rem; }
+        .info-block h4 { font-size: 1rem; margin-bottom: 0.25rem; color: var(--primary); }
+        .info-block p { color: var(--text-muted); font-size: 0.95rem; }
+
+        .contact-form { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; }
+        .contact-form .full-width { grid-column: span 2; }
+        .contact-form input, .contact-form textarea { width: 100%; padding: 1rem; border: 1px solid #e2e8f0; border-radius: 4px; outline: none; font-size: 0.95rem; }
+        .contact-form input:focus, .contact-form textarea:focus { border-color: var(--secondary); }
+        .contact-form textarea { height: 150px; resize: none; }
+
+        /* --- FOOTER --- */
+        footer { background: #050a18; color: var(--white); padding: 40px 0 0; }
+        
+        .footer-branding { 
+            display: flex; 
+            align-items: center; 
+            gap: 0; 
+            margin-bottom: 30px;
+            width: 100%;
+        }
+
+        .footer-logo-col { 
+            flex: 0 0 15%; 
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+        }
+
+        .footer-logo-frame {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(5px);
+            padding: 10px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid rgba(255, 255, 255, 0.15);
+        }
+
+        .footer-logo-frame img {
+            height: 50px;
+            width: auto;
+            object-fit: contain;
+        }
+
+        .footer-text-col { 
+            flex: 0 0 85%; 
+            color: #94a3b8; 
+            font-size: 1rem; 
+            line-height: 1.6; 
+            border-left: 1px solid rgba(255,255,255,0.1);
+            padding-left: 30px;
+            display: flex;
+            align-items: center;
+        }
+
+        .footer-nav { 
+            text-align: center; 
+            padding: 20px 0; 
+            border-top: 1px solid rgba(255,255,255,0.08);
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            font-weight: 700;
+        }
+        .footer-nav a { color: var(--white); text-decoration: none; transition: var(--transition); }
+        .footer-nav a:hover { color: var(--secondary); }
+        .nav-pipe { color: #334155; margin: 0 15px; font-weight: 300; }
+
+        .footer-divider { height: 1px; background: rgba(255,255,255,0.08); width: 100%; }
+
+        .copyright-area { 
+            padding: 13pt 0; 
+            text-align: center; 
+            font-size: 9pt; 
+            color: #64748b;
+        }
+        .copyright-area a { color: var(--secondary); text-decoration: none; font-weight: 700; }
+
+        /* --- RESPONSIVE --- */
+        @media (max-width: 1024px) {
+            .about-grid, .contact-container { grid-template-columns: 1fr; gap: 3rem; }
+            .features-grid { grid-template-columns: repeat(2, 1fr); }
+            .footer-branding { flex-direction: column; text-align: center; }
+            .footer-logo-col { flex: 0 0 100%; justify-content: center; margin-bottom: 20px; }
+            .footer-text-col { flex: 0 0 100%; border-left: none; padding-left: 0; }
+            .nav-links { 
+                justify-content: center;
+                gap: 0.5rem;
+                padding-top: 10px;
+            }
+            .nav-links li:not(:last-child)::after {
+                margin: 0 0.5rem;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .contact-form { grid-template-columns: 1fr; }
+            .contact-form .full-width { grid-column: span 1; }
+            .features-grid { grid-template-columns: 1fr; }
+            .nav-links a { font-size: 0.75rem; }
+            .logo-main-text { font-size: 1.1rem; }
+            .logo-sub-text { font-size: 0.6rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header id="mainHeader">
+        <div class="container nav-wrapper">
+            <a href="#" class="logo-group">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhU5Rn_b4iCLSB_rk0XS7jHzLPmpCruAMb9EywLDkdeHa8nS5tzZVSRa-XSj_cjGUMYUuAieUGeME3GNpgE6a-YPor3yvxBreSCVnfQb1A8owk-ao0GhKahc96UZ4oeL0xvZlxdPGgR6Finh7cbwU-TfnkiuYkZuVyiodJueT0TV2W_spNkAT72GG4w7UFE/s320/Al%20Raazi%20Global%20logo.png" alt="Al Raazi Global Logo" class="logo-img">
+                <div class="logo-text-wrapper">
+                    <span class="logo-main-text">AL RAAZI</span>
+                    <span class="logo-sub-text">Global Trading</span>
+                </div>
+            </a>
+            
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#why-choose">Why Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="https://shop.alraaziglobal.com" class="shop-cta" target="_blank">Shop</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Connecting Markets. <br><span style="color:var(--secondary)">Empowering Growth.</span></h1>
+                <p>Al Raazi Global Trading LLC is your strategic partner in international trade, facilitating seamless exchange between the UAE, Pakistan, and China.</p>
+                <a href="#about" class="btn btn-primary">Our Expertise</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1000&q=80" alt="Global Business Hub">
+                </div>
+                <div class="about-text">
+                    <div class="section-header" style="text-align: left;">
+                        <h2>Tradition Meets Digital Innovation</h2>
+                    </div>
+                    <p>Operating from the Sharjah Media City (SHAMS), <strong><a href="https://alraaziglobal.com" target="_blank">Al Raazi Global Trading LLC</a></strong> leverages the UAE's position as the world's commercial gateway. We specialize in identifying market gaps and filling them with reliable supply chains.</p>
+                    <br>
+                    <p>Our company actively bridges the trade corridors between Pakistan, China, and the Middle East, providing managed procurement, logistics, and distribution services for modern enterprises.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Integrated Trading Solutions</h2>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-ship"></i></div>
+                    <h3>Import & Export</h3>
+                    <p>End-to-end management of international trade documentation and cross-border logistics for industrial and consumer sectors.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-boxes-stacked"></i></div>
+                    <h3>Wholesale & Distribution</h3>
+                    <p>Strategic warehousing and bulk supply solutions ensuring consistent product flow for retailers and regional clients.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-chart-line"></i></div>
+                    <h3>Digital Commerce</h3>
+                    <p>Scaling market reach through modern marketplaces and technology-driven distribution channels in the digital era.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section id="why-choose">
+        <div class="container">
+            <div class="section-header">
+                <h2>Why Choose Al Raazi Global Trading</h2>
+                <p>We combine strategic location with global expertise to deliver unmatched trading value.</p>
+            </div>
+            <div class="features-grid">
+                <!-- Card 1 -->
+                <div class="feature-item">
+                    <i class="fas fa-map-location-dot"></i>
+                    <h3>Strategic UAE Presence</h3>
+                    <p>Operating from Sharjah Media City (SHAMS), we are positioned within one of the world’s most important international trade corridors.</p>
+                </div>
+                <!-- Card 2 -->
+                <div class="feature-item">
+                    <i class="fas fa-network-wired"></i>
+                    <h3>Global Supply Network</h3>
+                    <p>Through our extensive supplier and partner network, we provide access to reliable manufacturers and sourcing channels across multiple industries.</p>
+                </div>
+                <!-- Card 3 -->
+                <div class="feature-item">
+                    <i class="fas fa-cubes"></i>
+                    <h3>Integrated Trade Solutions</h3>
+                    <p>From product sourcing and wholesale supply to eCommerce distribution and digital marketplaces, we offer comprehensive trading solutions.</p>
+                </div>
+                <!-- Card 4 -->
+                <div class="feature-item">
+                    <i class="fas fa-shield-heart"></i>
+                    <h3>Commitment to Trust & Quality</h3>
+                    <p>Integrity, transparency, and professionalism are at our core. We are committed to maintaining long term partnerships through ethical practices.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Markets We Serve Section -->
+    <section class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Markets We Serve</h2>
+            </div>
+            <div class="markets-container">
+                <div class="market-chips">
+                    <div class="chip">United Arab Emirates</div>
+                    <div class="chip">Pakistan</div>
+                    <div class="chip">China</div>
+                    <div class="chip">Middle East Region</div>
+                    <div class="chip">International Markets</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Partner Section -->
+    <section class="partner-section">
+        <div class="container">
+            <h2>Partner With Us</h2>
+            <p>Al Raazi Global Trading welcomes partnerships with manufacturers, suppliers, distributors, and businesses seeking reliable trading support in the UAE and global markets. We are always open to exploring new opportunities that strengthen international trade relationships and deliver mutual growth.</p>
+            <a href="#contact" class="btn btn-primary" style="background-color: var(--white); color: var(--primary);">Contact Us Today</a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Contact Us</h2>
+                <p>We welcome inquiries, partnerships, and business collaboration opportunities.</p>
+            </div>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Get In Touch</h3>
+                    <div class="info-block">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email Address</h4>
+                            <p>info@alraaziglobal.com</p>
+                        </div>
+                    </div>
+                    <div class="info-block">
+                        <i class="fas fa-location-dot"></i>
+                        <div>
+                            <h4>Office Location</h4>
+                            <p>SHAMS Business Center, Sharjah, UAE</p>
+                        </div>
+                    </div>
+                    <div class="info-block">
+                        <i class="fas fa-globe"></i>
+                        <div>
+                            <h4>Website</h4>
+                            <p>www.alraaziglobal.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" id="contactForm">
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                        <input type="text" placeholder="Subject" class="full-width">
+                        <textarea placeholder="Your Message" class="full-width" required></textarea>
+                        <button type="submit" class="btn btn-primary full-width">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <div class="footer-branding">
+                <div class="footer-logo-col">
+                    <div class="footer-logo-frame">
+                        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhU5Rn_b4iCLSB_rk0XS7jHzLPmpCruAMb9EywLDkdeHa8nS5tzZVSRa-XSj_cjGUMYUuAieUGeME3GNpgE6a-YPor3yvxBreSCVnfQb1A8owk-ao0GhKahc96UZ4oeL0xvZlxdPGgR6Finh7cbwU-TfnkiuYkZuVyiodJueT0TV2W_spNkAT72GG4w7UFE/s320/Al%20Raazi%20Global%20logo.png" alt="Al Raazi Global Footer Logo">
+                    </div>
+                </div>
+                <div class="footer-text-col">
+                    <p>Bridging the gap between manufacturers and markets with excellence since our inception. Al Raazi Global Trading LLC is dedicated to providing transparent, reliable, and innovative trade solutions across international borders.</p>
+                </div>
+            </div>
+            
+            <div class="footer-nav">
+                <a href="#home">Home</a><span class="nav-pipe">|</span>
+                <a href="#about">About</a><span class="nav-pipe">|</span>
+                <a href="#services">Activities</a><span class="nav-pipe">|</span>
+                <a href="#">Policies</a><span class="nav-pipe">|</span>
+                <a href="https://shop.alraaziglobal.com">Shop</a>
+            </div>
+
+            <div class="footer-divider"></div>
+
+            <div class="copyright-area">
+                <p>&copy; 2025 - <span id="year"></span> Al Raazi Global Trading LLC. All Rights Reserved. | Designed by <a href="https://www.kreativemindes.ae" target="_blank">Kreative Minds</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                const targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+                e.preventDefault();
+                document.querySelector(targetId).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Form Submission Placeholder
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Thank you for your message. We will get back to you shortly.');
+            this.reset();
+        });
+    </script>
+</body>
+</html>
