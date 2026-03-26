@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+# Allow important files
+Allow: /index.html
+Allow: /llms.txt
+Allow: /sitemap.xml
+
+# Sitemap location
+Sitemap: https://www.alraaziglobal.com/sitemap.xml
